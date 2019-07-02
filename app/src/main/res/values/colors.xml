@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6363</color>
+    <color name="colorPrimaryDark">#FF6363</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="appName">#707070</color>
+    <color name="pinklike">#FF6363</color>
+
+</resources>

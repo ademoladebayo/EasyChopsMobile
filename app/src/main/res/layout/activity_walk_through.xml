@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F5F7"
+    tools:context=".WalkThroughActivity">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/background" />
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_above="@+id/layout"
+        android:foregroundGravity="center"
+        android:layout_centerInParent="true"
+        android:overScrollMode="never"
+        android:id="@+id/viewpager"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       </androidx.viewpager.widget.ViewPager>
+
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/layout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="119dp">
+
+       <LinearLayout
+           android:layout_alignParentTop="true"
+           android:gravity="center"
+           android:orientation="horizontal"
+           android:id="@+id/pagernavlayout"
+           android:layout_width="match_parent"
+           android:layout_centerInParent="true"
+           android:layout_margin="10dp"
+           android:layout_above="@id/startBtn"
+           android:layout_height="wrap_content">
+
+       </LinearLayout>
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/buttondesign"
+            android:cursorVisible="false"
+            android:padding="10dp"
+            android:text="Start Now"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

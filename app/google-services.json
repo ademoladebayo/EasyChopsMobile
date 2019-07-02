@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "576285110457",
+    "firebase_url": "https://easychops-44eed.firebaseio.com",
+    "project_id": "easychops-44eed",
+    "storage_bucket": "easychops-44eed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576285110457:android:971833e6340a284c",
+        "android_client_info": {
+          "package_name": "com.ademolaadebayo.easychops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576285110457-vd0rorirreokkaarpgq2tj5ndtj6ave5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ademolaadebayo.easychops",
+            "certificate_hash": "0737cced8b9cc7b1e9b7e3bbac3b22e21f7d2249"
+          }
+        },
+        {
+          "client_id": "576285110457-hqssqjkkqspstodvv605d60q4bdpq0mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCspGs_icCw7NUKxjpBw0DaoaJfIGUmA4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576285110457-hqssqjkkqspstodvv605d60q4bdpq0mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
